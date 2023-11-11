@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: black;
+  color: #fff;
+}
+
+.card {
+  width: 90%;
+  max-width: 470px;
+  /* height: 530px; */
+  border-radius: 20px;
+  background-image: linear-gradient(135deg, #103ce7, #64e9ff);
+  margin: 100px auto 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.search {
+  width: 90%;
+  height: 35px;
+  border-radius: 30px;
+  margin: 50px auto 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: white; */
+}
+
+.search input {
+  height: 100%;
+  flex: 1;
+  margin-right: 6px;
+  border-radius: 35px;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  padding-left: 15px;
+}
+.search button {
+  height: 100%;
+  width: 35px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.search img {
+  width: 14px;
+  line-height: 35px;
+  align-items: center;
+}
+
+.weather {
+  width: 100%;
+  max-height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weather img {
+  width: 200px;
+}
+
+.humidity-wind {
+  width: 100%;
+  height: min-content;
+  margin: 40px 0 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.humidity-wind img {
+  width: 30px;
+}
+
+.humidity {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.humidity .humidity-label {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  align-items: flex-start;
+}
+
+.wind {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10px;
+}
+.wind .wind-label {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  align-items: flex-start;
+}
+
+.enter-city {
+  height: 40px;
+  width: 90%;
+  margin: 0 auto 10px;
+  padding-top: 1px;
+  font-size: 14px;
+}
+
+.enter-city p {
+  padding-left: 15px;
+  display: none;
+}
+.weather-box {
+  display: none;
+}
+
+.high-low {
+  width: 80px;
+  font-size: 18px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: #103ce7; */
+}
+
+.city {
+  margin-bottom: 10px;
+}
+
+.weather-description {
+  width: 60px;
+  font-size: 16px;
+  text-align: center;
+}
