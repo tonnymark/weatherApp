@@ -9,6 +9,23 @@ const cityInput = document.querySelector('.enter-city p');
 const tempMax = document.getElementById('high');
 const tempMin = document.getElementById('low');
 const weatherType = document.querySelector('.weather-description');
+const dateLabel = document.querySelector('.date-label');
+const timeLabel = document.querySelector('.time-label');
+
+// displayoing date using a library Dayjs
+
+const today = dayjs();
+const dateStamp = today.format('dddd, MMM YY');
+
+// displayoing time using a library Dayjs
+const time = dayjs();
+const now = time.format('h:mm A');
+
+dateLabel.innerHTML = dateStamp;
+timeLabel.innerHTML = now;
+// const timeStamp = Dayjs;
+
+// timeStamp =
 
 // fetching the weather api using asych  function
 
